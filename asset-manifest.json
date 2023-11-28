@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/homework-font-main/static/css/main.073c9b0a.css",
-    "main.js": "/homework-font-main/static/js/main.ec30f76a.js",
+    "main.js": "/homework-font-main/static/js/main.e5e3ff7f.js",
     "static/js/787.177e23c2.chunk.js": "/homework-font-main/static/js/787.177e23c2.chunk.js",
     "index.html": "/homework-font-main/index.html",
     "main.073c9b0a.css.map": "/homework-font-main/static/css/main.073c9b0a.css.map",
-    "main.ec30f76a.js.map": "/homework-font-main/static/js/main.ec30f76a.js.map",
+    "main.e5e3ff7f.js.map": "/homework-font-main/static/js/main.e5e3ff7f.js.map",
     "787.177e23c2.chunk.js.map": "/homework-font-main/static/js/787.177e23c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ec30f76a.js"
+    "static/js/main.e5e3ff7f.js"
   ]
 }
