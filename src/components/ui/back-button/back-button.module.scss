@@ -1,0 +1,15 @@
+.button {
+  cursor: pointer;
+  margin-top: 10px;
+  color: var(--color-light-900);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-light-900);
+    text-decoration: underline;
+  }
+}
+
+.wrapper {
+  display: flex;
+}

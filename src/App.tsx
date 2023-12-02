@@ -1,18 +1,25 @@
-import './App.css';
-import { HW1 } from './HW/1/HW1';
-import { HW2 } from './HW/2/HW2';
-import { HW3 } from './HW/3/HW3';
-import { HW4 } from './HW/4/HW4';
+import { Provider } from 'react-redux'
+import { ToastContainer } from 'react-toastify'
 
-function App() {
+import { Router } from '@/router.tsx'
+import { store } from '@/services/store.ts'
+
+export function App() {
   return (
-    <div className="App">
-      <HW1 />
-      <HW2 />
-      <HW3 />
-      <HW4 />
-    </div>
-  );
+    <Provider store={store}>
+      <Router />
+      <ToastContainer
+        position="top-center"
+        autoClose={1500}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable={false}
+        pauseOnHover
+        theme="dark"
+      />
+    </Provider>
+  )
 }
-
-export default App;

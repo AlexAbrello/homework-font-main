@@ -1,0 +1,48 @@
+
+.coverPreview {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+}
+
+.inputFileWrapper {
+  margin-top: 20px;
+
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  .inputFile {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .changeCover {
+    padding: 20px;
+
+    background: var(--color-dark-300);
+    box-shadow: 0 2px 10px 0 rgb(109 109 109 / 25%);
+
+    -webkit-box-align: center;
+    -webkit-box-pack: start;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+  }
+}
+
+.children {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.errorMessage {
+  text-align: start;
+  margin-top: 5px;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  color: var(--color-danger-300);
+}

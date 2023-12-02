@@ -1,0 +1,12 @@
+.avatar {
+  margin-left: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.wrapper {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,40 @@
+.backButton {
+   margin-left: 10px;
+   padding: 6px;
+}
+.inputFile {
+   position: relative;
+   display: inline-block;
+   padding: 5px 10px 0;
+   background-color: var(--color-dark-300);
+   border-radius: 4px;
+   transition: background-color 0.2s;
+   top: -20px;
+   left: 60%;
+   &:hover {
+      background-color: var(--color-dark-100);
+   }
+}
+
+.inputFile input[type="file"] {
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+ }
+
+ .submitButton {
+   padding: 6px 0;
+   margin-top: 20px;
+ }
+
+ form {
+   width: 100%;
+ }
+
+ .wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+ }
